@@ -21,7 +21,7 @@ export default function ProductDetails({product} : ProductDetailsProps) {
     const isAvailable = product.availability
 
     return (
-        <tr className="border-b hover:bg-slate-200 hover:scale-105 transition">
+        <tr className="border-b hover:bg-slate-200">
             <td className="p-3 text-lg text-gray-800 text-left">
                 {product.name}
             </td>
